@@ -1,0 +1,68 @@
+nav {
+  background-color: black;
+  height: 3.1rem;
+}
+
+#link {
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+body {
+  margin: 0;
+}
+
+.account {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.top {
+  color: azure;
+  text-decoration: none;
+}
+
+.top:hover {
+  text-decoration: underline;
+}
+
+/* #right {
+    display: flex;
+} */
+
+#right,
+a {
+  /* display: flex;
+    justify-content: space-between; */
+  margin-left: 1vh;
+}
+
+#left {
+  margin-right: 1.2vh;
+}
+
+#title {
+  display: flex;
+}
+
+.title {
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 1.6rem;
+  margin-left: 6vh;
+}
+
+.search {
+  display: flex;
+  margin-left: 5vh;
+  height: 1.6rem;
+  margin-top: 3.78vh;
+  width: 167vh;
+  border-radius: 999rem;
+  border-color: black;
+}
+
