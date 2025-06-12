@@ -1,0 +1,30 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding: 1rem;
+  gap: 1rem;
+  margin-top: 0%;
+}
+
+.category {
+  color: azure;
+  background-color: black;
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  display: flex;
+  text-decoration: none;
+  height: 3rem;
+  width: 10rem;
+  align-items: center;
+  padding-left: 0.6rem;
+}
+
+.category:hover {
+  text-decoration: underline;
+}
+
+main {
+  background-color: gray;
+}
+
