@@ -1,0 +1,40 @@
+main {
+  display: flex;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 5rem;
+}
+
+.product {
+  background-color: black;
+  color: azure;
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  display: flex;
+  height: 2.4rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.text {
+  color: azure;
+  background-color: black;
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.price {
+  background-color: black;
+  color: azure;
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  display: flex;
+  height: 2rem;
+  align-items: center;
+  justify-content: center;
+}
